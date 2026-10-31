@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ZharPtitsa</AssemblyName>
+    <ApplicationIcon>Import/import/IconVe.ico</ApplicationIcon>
+    <AppHostDotNetSearch>AppRelative;EnvironmentVariable;Global</AppHostDotNetSearch>
+    <AppHostRelativeDotNet>../../.dotnet</AppHostRelativeDotNet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Import/import/*;Import/seed.json;Database.sql" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

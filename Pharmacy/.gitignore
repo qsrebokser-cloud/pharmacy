@@ -1,0 +1,8 @@
+bin/
+obj/
+dist/
+Release/
+Documentation/qa/
+Documentation/*-preview-*.png
+Deliverable/error.log
+Deliverable/check-*.db

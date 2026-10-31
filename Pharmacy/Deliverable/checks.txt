@@ -1,0 +1,24 @@
+PASS: Imported 15 products
+PASS: Imported 8 users
+PASS: Grouped 7 orders
+PASS: Imported 12 order lines
+PASS: Foreign keys valid
+PASS: Database integrity
+PASS: Guest cannot order
+PASS: Incorrect password rejected
+PASS: SQL injection rejected
+PASS: Customer login
+PASS: Discount uses integer cents
+PASS: Customer cannot edit products
+PASS: Empty address preserves cart and database
+PASS: Insufficient stock rolls back entire order
+PASS: Checkout clears cart and decrements stock
+PASS: Order preserves discounted price
+PASS: Logout returns guest
+PASS: Manager permissions
+PASS: Product ID equals max plus one
+PASS: Product update persisted
+PASS: Product deletion persisted
+PASS: Order history prevents product deletion
+PASS: Administrator login
+PASS: Data survives reopening without duplicate import
